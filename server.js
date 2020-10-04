@@ -352,7 +352,7 @@ client.unload = command => {
 client.on('message', msg => {
   if (msg.content.toLowerCase() === 'sa') {
 		if (!msg.guild.member(msg.author).hasPermission("BAN_MEMBERS")) {
-			msg.author.sendMessage('**Aleyküm Selam,  Hoş Geldin!**');
+			msg.author.sendMessage('');
 		} else {
 		msg.reply('Aleyküm selam, hoş geldin ^^');
 		}
@@ -362,7 +362,7 @@ client.on('message', msg => {
 client.on('message', msg => {
   if (msg.content.toLowerCase() === 'selam') {
 		if (!msg.guild.member(msg.author).hasPermission("BAN_MEMBERS")) {
-			msg.author.sendMessage('**Aleyküm Selam,  Hoş Geldin!**');
+			msg.author.sendMessage('');
 		} else {
 		msg.reply('Aleyküm selam, hoş geldin dostum eğer kimse yokma merak etme burda olurlar ;)');
 		}
@@ -372,7 +372,7 @@ client.on('message', msg => {
 client.on('message', msg => {
   if (msg.content.toLowerCase() === 'sea') {
 		if (!msg.guild.member(msg.author).hasPermission("BAN_MEMBERS")) {
-			msg.author.sendMessage('**Aleyküm Selam,  Hoş Geldin!**');
+			msg.author.sendMessage('');
 		} else {
 		msg.reply('Aleyküm selam, hoş geldin dostum eğer kimse yokma merak etme burda olurlar ;)');
 		}
@@ -382,7 +382,7 @@ client.on('message', msg => {
 client.on('message', msg => {
   if (msg.content.toLowerCase() === 'selamun aleyküm') {
 		if (!msg.guild.member(msg.author).hasPermission("BAN_MEMBERS")) {
-			msg.author.sendMessage('**Aleyküm Selam,  Hoş Geldin!**');
+			msg.author.sendMessage('');
 		} else {
 		msg.reply('Aleyküm selam, hoş geldin dostum eğer kimse yokma merak etme burda olurlar ;)');
 		}
